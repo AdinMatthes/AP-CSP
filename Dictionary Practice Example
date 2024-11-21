@@ -1,0 +1,22 @@
+#This is a dictionary using a tuple as demonstrated in the BroCode video
+#dictionary = collection of {key: value} pairs
+
+capitals = {"USA": "Washington DC",
+           "France": "Paris",
+           "India": "New Delhi"}
+
+#print(capitals.get["France"])
+
+#if capitals.get("Russia"):
+#    print("That capital is in the dictionary")
+#else:
+#    print("That capital is not in the dictionary")
+
+#capitals.update({"Germany": "Berlin"})
+#capitals.update({"USA": "Las Vegas"})
+#capitals.pop("France")
+#capitals.clear()
+
+keys = capitals.keys()
+for key in keys:
+    print(key)
